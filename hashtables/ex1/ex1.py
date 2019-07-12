@@ -12,7 +12,15 @@ def get_indices_of_item_weights(weights, length, limit):
     """
     YOUR CODE HERE
     """
-
+    # need an index
+    # loop through weights, see what meets limit
+    # add new weight to hash table
+    # find difference between limit and new weight
+    # if it's in hash table, thats what we need (other weight)
+    # if new weight and other weight are at (0, 1), make 1 go first
+    # else order pair with the larger index first
+    # increment the index
+    # return None if can't find a pair 
     return None
 
 
